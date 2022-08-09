@@ -219,6 +219,9 @@ let carbon_footprint = page Ood.Page.carbon_footprint
 let privacy_policy = page Ood.Page.privacy_policy
 let governance = page Ood.Page.governance
 let playground _req = Dream.html (Ocamlorg_frontend.playground ())
+let ocaml_governance _req = Dream.html (Ocamlorg_frontend.ocaml_governance ())
+let code_editors _req = Dream.html (Ocamlorg_frontend.code_editors ())
+let governance_main _req = Dream.html (Ocamlorg_frontend.governance_main ())
 
 let papers req =
   let search_paper pattern t =

@@ -50,4 +50,7 @@ let page ~title ~description ~meta_title ~meta_description ~content =
   Page.render ~title ~description ~meta_title ~meta_description ~content
 
 let playground () = Playground.render ()
+let ocaml_governance () = Ocaml_governance.render ()
+let code_editors () = Code_editors.render ()
+let governance_main () = Governance_main.render ()
 let not_found () = Not_found.render ()

@@ -51,6 +51,9 @@ let page_routes =
       Dream.get Url.problems Handler.problems;
       Dream.get (Url.tutorial ":id") Handler.tutorial;
       Dream.get Url.playground Handler.playground;
+      Dream.get Url.ocaml_governance Handler.ocaml_governance;
+      Dream.get Url.code_editors Handler.code_editors;
+      Dream.get Url.governance_main Handler.governance_main;
     ]
 
 let package_route t =

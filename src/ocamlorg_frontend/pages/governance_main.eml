@@ -1,0 +1,187 @@
+let render () =
+Layout.render 
+~title:"Governance"
+~description:"OCaml is a mature, statically-typed, functional programming language. Learn more about its rich history and what makes it unique." @@
+<div class="intro-section-simple">
+  <div class="container-fluid">
+    <div class="mx-auto px-4 sm:px-6">
+      <div class="">
+        <div class="sm:text-center lg:col-span-8 lg:text-center">
+          <h1 class="font-bold pb-6 text-[56px]">Governance</h1>
+          <div class="text-2xl text-body-400 pb-10">The projects running under OCaml and the awesome teams behind it</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="our-team">
+  <div class="py-10 lg:py-28">
+    <div class="container-fluid">
+      <h2 class="font-bold gradient mb-6 text-[40px]">Our Teams</h2>
+      <div class="text-white text-lg">
+        Odio amet cursus eu cursus nunc bibendum mauris. Nunc tempor fermentum phasellus mi nulla id fermentum integer id. Nec quisque consequat et, risus ultrices orci ut massa.
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-20 mt-16">
+        <div class="flex-col text-white">
+          <div class="text-white text-2xl mb-5 font-semibold">OCaml.org</div>
+          <div class="opacity-60 mb-4 text-lg">Vitae arcu luctus volutpat quis. Purus egestas nisi, pellentesque ac mattis. Mauris vitae purus habitasse consequat.</div>
+          <div class="font-semibold mb-6">23 team members</div>
+          <button class="btn btn-secondary">
+            <span>See members</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 5l7 7-7 7" />
+            </svg>
+        </button>
+        </div>
+        <div class="flex-col text-white">
+          <div class="text-white text-2xl mb-5 font-semibold">Platform
+            <img src="/img/platfrom.png" alt="" class="h-6 w-6 ml-3 inline-block" />
+          </div>
+          <div class="opacity-60 mb-4 text-lg">Vitae arcu luctus volutpat quis. Purus egestas nisi, pellentesque ac mattis. Mauris vitae purus habitasse consequat.</div>
+          <div class="font-semibold mb-6">23 team members</div>
+          <button class="btn btn-secondary">
+            <span>See members</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 5l7 7-7 7" />
+            </svg>
+        </button>
+        </div>
+        <div class="flex-col text-white">
+          <div class="text-white text-2xl mb-5 font-semibold">Compiler
+            <img src="/img/platfrom.png" alt="" class="h-6 w-6 ml-3 inline-block" />
+          </div>
+          <div class="opacity-60 mb-4 text-lg">Vitae arcu luctus volutpat quis. Purus egestas nisi, pellentesque ac mattis. Mauris vitae purus habitasse consequat.</div>
+          <div class="font-semibold mb-6">23 team members</div>
+          <button class="btn btn-secondary">
+            <span>See members</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 5l7 7-7 7" />
+            </svg>
+        </button>
+        </div>
+        <div class="flex-col text-white">
+          <div class="text-white text-2xl mb-5 font-semibold">OCaml Packages
+            <img src="/img/platfrom.png" alt="" class="h-6 w-6 ml-3 inline-block" />
+          </div>
+          <div class="opacity-60 mb-4 text-lg">Vitae arcu luctus volutpat quis. Purus egestas nisi, pellentesque ac mattis. Mauris vitae purus habitasse consequat.</div>
+          <div class="font-semibold mb-6">23 team members</div>
+          <button class="btn btn-secondary">
+            <span>See members</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 5l7 7-7 7" />
+            </svg>
+        </button>
+        </div>
+        <div class="flex-col text-white">
+          <div class="text-white text-2xl mb-5 font-semibold">Moderation team
+            <img src="/img/platfrom.png" alt="" class="h-6 w-6 ml-3 inline-block" />
+          </div>
+          <div class="opacity-60 mb-4 text-lg">Vitae arcu luctus volutpat quis. Purus egestas nisi, pellentesque ac mattis. Mauris vitae purus habitasse consequat.</div>
+          <div class="font-semibold mb-6">23 team members</div>
+          <button class="btn btn-secondary">
+            <span>See members</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 5l7 7-7 7" />
+            </svg>
+        </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-white">
+  <div class="py-10 lg:py-28">
+    <div class="container-fluid">
+      <h2 class="font-bold text-body-600 mb-6 text-[40px]">Working groups</h2>
+      <div class="text-body-400 text-lg">
+        Odio amet cursus eu cursus nunc bibendum mauris. Nunc tempor fermentum phasellus mi nulla id fermentum integer id. Nec quisque consequat et, risus ultrices orci ut massa.      </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-20 mt-16">
+          <div class="flex-col text-black">
+            <div class=" text-2xl mb-5 font-semibold">OCaml.org</div>
+            <div class="opacity-60 mb-4 text-lg">Vitae arcu luctus volutpat quis. Purus egestas nisi, pellentesque ac mattis. Mauris vitae purus habitasse consequat.</div>
+            <div class="font-semibold mb-6">23 team members</div>
+            <button class="btn btn-secondary">
+              <span>See members</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M9 5l7 7-7 7" />
+              </svg>
+          </button>
+          </div>
+          <div class="flex-col text-black">
+            <div class="text-2xl mb-5 font-semibold">Platform
+              <img src="/img/platfrom.png" alt="" class="h-6 w-6 ml-3 inline-block" />
+            </div>
+            <div class="opacity-60 mb-4 text-lg">Vitae arcu luctus volutpat quis. Purus egestas nisi, pellentesque ac mattis. Mauris vitae purus habitasse consequat.</div>
+            <div class="font-semibold mb-6">23 team members</div>
+            <button class="btn btn-secondary">
+              <span>See members</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M9 5l7 7-7 7" />
+              </svg>
+          </button>
+          </div>
+          <div class="flex-col text-black">
+            <div class="text-2xl mb-5 font-semibold">Compiler
+              <img src="/img/platfrom.png" alt="" class="h-6 w-6 ml-3 inline-block" />
+            </div>
+            <div class="opacity-60 mb-4 text-lg">Vitae arcu luctus volutpat quis. Purus egestas nisi, pellentesque ac mattis. Mauris vitae purus habitasse consequat.</div>
+            <div class="font-semibold mb-6">23 team members</div>
+            <button class="btn btn-secondary">
+              <span>See members</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M9 5l7 7-7 7" />
+              </svg>
+          </button>
+          </div>
+          <div class="flex-col text-black">
+            <div class=" text-2xl mb-5 font-semibold">OCaml Packages
+              <img src="/img/platfrom.png" alt="" class="h-6 w-6 ml-3 inline-block" />
+            </div>
+            <div class="opacity-60 mb-4 text-lg">Vitae arcu luctus volutpat quis. Purus egestas nisi, pellentesque ac mattis. Mauris vitae purus habitasse consequat.</div>
+            <div class="font-semibold mb-6">23 team members</div>
+            <button class="btn btn-secondary">
+              <span>See members</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M9 5l7 7-7 7" />
+              </svg>
+          </button>
+          </div>
+          <div class="flex-col text-black">
+            <div class="text-2xl mb-5 font-semibold">Moderation team
+              <img src="/img/platfrom.png" alt="" class="h-6 w-6 ml-3 inline-block" />
+            </div>
+            <div class="opacity-60 mb-4 text-lg">Vitae arcu luctus volutpat quis. Purus egestas nisi, pellentesque ac mattis. Mauris vitae purus habitasse consequat.</div>
+            <div class="font-semibold mb-6">23 team members</div>
+            <button class="btn btn-secondary">
+              <span>See members</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M9 5l7 7-7 7" />
+              </svg>
+          </button>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,374 @@
+let render () =
+Layout.render 
+~title:"Ocaml_Governance"
+~description:"OCaml is a mature, statically-typed, functional programming language. Learn more about its rich history and what makes it unique." @@
+<div class="intro-section-simple">
+  <div class="container-fluid">
+    <div class="mx-auto px-4 sm:px-6">
+      <div class="">
+        <div class="sm:text-center lg:col-span-8 lg:text-left">
+          <div class="flex justify-start space-x-3 items-center text-primary-600 hover:underline font-semibold mb-4 h-12">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+            </svg>
+            <a href="/industrial-users" class="hover:underline">Back to Governance</a>
+          </div>
+          <h1 class="font-bold pb-6">OCaml.org Governance</h1>
+          <div class="text-2xl text-body-400">Eget nibh diam eget velit quisque. Nec ac amet, nunc egestas felis ut. Cras leo amet donec facilisis. Bibendum nisl viverra lorem viverra. Gravida quam posuere parturient varius.</div>
+          <div class="space-x-4">
+            <a href="" target="_blank">
+              <button class="btn btn-secondary btn-lg mt-6">
+                <img src="/img/email.svg" alt="" class="h-6 w-6 mr-3 inline-block" />
+                Email
+              </button>
+            </a>
+            <a href="" target="_blank">
+              <button class="btn btn-secondary btn-lg mt-6">
+                <img src="/img/discord_solid.svg" alt="" class="h-6 w-7 mr-3 inline-block" />
+                Discord
+              </button>
+            </a>
+            <a href="" target="_blank">
+              <button class="btn btn-secondary btn-lg mt-6">
+                <img src="/img/slack_solid.svg" alt="" class="h-6 w-5 mr-3 inline-block" />
+                Slack
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="our-team">
+  <div class="py-10 lg:py-28">
+    <div class="container-fluid">
+      <h2 class="font-bold gradient mb-6 text-[40px]">Team Members</h2>
+      <div class="text-white text-lg">
+        Odio amet cursus eu cursus nunc bibendum mauris. Nunc tempor fermentum phasellus mi nulla id fermentum integer id. Nec quisque consequat et, risus ultrices orci ut massa.
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:md-grid-cols-3 gap-12 mt-16">
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-white text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-white text-opacity-50">CEO</div>
+            <div class="mt-8 text-white text-opacity-50 items-center flex">
+              <img src="/img/github-icon.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span>tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-white text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-white text-opacity-50">CEO</div>
+            <div class="mt-8 text-white text-opacity-50 items-center flex">
+              <img src="/img/github-icon.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span>tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-white text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-white text-opacity-50">CEO</div>
+            <div class="mt-8 text-white text-opacity-50 items-center flex">
+              <img src="/img/github-icon.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span>tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-white text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-white text-opacity-50">CEO</div>
+            <div class="mt-8 text-white text-opacity-50 items-center flex">
+              <img src="/img/github-icon.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span>tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-white text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-white text-opacity-50">CEO</div>
+            <div class="mt-8 text-white text-opacity-50 items-center flex">
+              <img src="/img/github-icon.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span>tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-white text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-white text-opacity-50">CEO</div>
+            <div class="mt-8 text-white text-opacity-50 items-center flex">
+              <img src="/img/github-icon.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span>tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-white text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-white text-opacity-50">CEO</div>
+            <div class="mt-8 text-white text-opacity-50 items-center flex">
+              <img src="/img/github-icon.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span>tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-white text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-white text-opacity-50">CEO</div>
+            <div class="mt-8 text-white text-opacity-50 items-center flex">
+              <img src="/img/github-icon.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span>tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-white text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-white text-opacity-50">CEO</div>
+            <div class="mt-8 text-white text-opacity-50 items-center flex">
+              <img src="/img/github-icon.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span>tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-white text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-white text-opacity-50">CEO</div>
+            <div class="mt-8 text-white text-opacity-50 items-center flex">
+              <img src="/img/github-icon.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span>tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-white text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-white text-opacity-50">CEO</div>
+            <div class="mt-8 text-white text-opacity-50 items-center flex">
+              <img src="/img/github-icon.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span>tmattio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bg-white">
+  <div class="py-10 lg:py-28">
+    <div class="container-fluid">
+      <h2 class="font-bold text-body-600 mb-6 text-[40px]">Our Alumni</h2>
+      <div class="text-body-400 text-lg">
+        Odio amet cursus eu cursus nunc bibendum mauris. Nunc tempor fermentum phasellus mi nulla id fermentum integer id. Nec quisque consequat et, risus ultrices orci ut massa.      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:md-grid-cols-3 gap-12 mt-16">
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-body-600 text-opacity-50">CEO</div>
+            <div class="mt-8 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-body-600 text-opacity-50">CEO</div>
+            <div class="mt-8 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-body-600 text-opacity-50">CEO</div>
+            <div class="mt-8 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-body-600 text-opacity-50">CEO</div>
+            <div class="mt-8 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-body-600 text-opacity-50">CEO</div>
+            <div class="mt-8 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-32 w-32 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-3">Frédéric Bour </div>
+            <div class="text-sm text-body-600 text-opacity-50">CEO</div>
+            <div class="mt-8 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-white">
+  <div class="py-10 lg:pb-28">
+    <div class="container-fluid border-b-[2px]  border-gray-200 pb-28">
+      <h2 class="font-bold text-body-600 mb-6 text-[40px]">Regular Contributors</h2>
+      <div class="text-body-400 text-lg">
+        Odio amet cursus eu cursus nunc bibendum mauris. Nunc tempor fermentum phasellus mi nulla id fermentum integer id. Nec quisque consequat et, risus ultrices orci ut massa.      </div>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 mt-16">
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-16 w-16 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-1">Frédéric Bour </div>
+            <div class="mt-1 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-16 w-16 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-1">Frédéric Bour </div>
+            <div class="mt-1 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-16 w-16 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-1">Frédéric Bour </div>
+            <div class="mt-1 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-16 w-16 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-1">Frédéric Bour </div>
+            <div class="mt-1 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-16 w-16 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-1">Frédéric Bour </div>
+            <div class="mt-1 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-16 w-16 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-1">Frédéric Bour </div>
+            <div class="mt-1 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-16 w-16 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-1">Frédéric Bour </div>
+            <div class="mt-1 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-16 w-16 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-1">Frédéric Bour </div>
+            <div class="mt-1 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex space-x-2">
+          <img src="/img/person1.png" alt="" class="h-16 w-16 mr-3 inline-block" />
+          <div>
+            <div class="text-body-600 text-lg font-semibold mt-1">Frédéric Bour </div>
+            <div class="mt-1 text-body-600 text-opacity-50 items-center flex">
+              <img src="/img/github-gray.svg" alt="" class=" mr-2 h-5 w-4 inline-block" />
+              <span class="font-medium">tmattio</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-white">
+  <div class="pb-10 lg:pb-28">
+    <div class="container-fluid text-lg">
+      <h2 class="font-bold text-body-600 mb-8 text-[40px]">Overview and Scope</h2>
+      <p>As the OCaml community continues to grow, more collaborative work undertaken to support and extend the needs of the language and its users. This document focuses specifically on the OCaml.org domain name and the Projects that make use of that domain name. It describes the reporting structure, roles involved, and the responsibilities. The aim is to avoid introducing cumbersome processes while still providing a high degree of transparency.</p>
+      <h2 class="font-bold text-body-600 mt-12 mb-8 text-[40px]">Purpose - A Document That Represents Reality</h2>
+      <p>At any given time, this document must reflect the current reality. It is not intended to be aspirational nor reflect the kind of structures that people may expect to see. This is an important point because the utility of this document is limited to the extent that it represents how things really are, as opposed to how people may desire them to be in the future. As the environment changes, this document should also be updated such that it consistently reflects how things are.</p>
+      <h2 class="font-bold text-body-600 mt-12 mb-8 text-[40px]">Disambiguation - The Meaning of OCaml.org</h2>
+      <p>When using the term 'OCaml.org', there is the potential for a number of different interpretations. To reduce confusion, these are described below, and the meaning of the term for this document is also explained.</p>
+    <p>Second-level domain name - This is the domain name we are familiar with, 'OCaml.org', which has associated sub-domains and records (NB: Just for clarity and edification, the top-level domain here is '.org').</p>
+  <p>Community website - This is the community facing website, which can be found at ocaml.org and is often referred to as simply 'OCaml.org'.</p>
+<p>Infrastructure - This may refer to the virtual machines (VMs), services, or other things that are somehow routed via the second-level domain name itself. An obvious example is the VM that hosts the community website, but another would be the VMs and systems that host the tarballs and files used by the Opam package manager tool.</p>
+<p>For the purposes of this document, we take the first meaning — that this document relates to the governance of the second-level domain, 'OCaml.org'. Therefore, anything that involves use of the domain name in some form is affected by the governance of the domain name itself. That includes any public facing webpages, URLs, and other resources. This is important because, in a way, OCaml.org is the sum of the Projects it hosts.</p>
+<p>To avoid confusion between the domain name itself and the community website Project, the term 'OCaml.org' in this document refers only to the second-level domain name itself. Any references to the domain of the community website project will include the sub-domain 'www.ocaml.org', even though this is set to redirect to ocaml.org.</p>
+<h2 class="font-bold text-body-600 mt-12 mb-8 text-[40px]">Guiding Principles of OCaml.org</h2>
+      <p>There are certain guiding principles for OCaml.org, which include openness and a community focus, that Projects need to be compatible with. These principles extend to all of the Projects that use the domain OCaml.org.</p>
+</div>
+  </div>
+</div>
+
