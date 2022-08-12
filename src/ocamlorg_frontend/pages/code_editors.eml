@@ -24,7 +24,7 @@ Layout.render
                           ></path>
                       </svg>
                       <a
-                          href="/industrial-users"
+                          href="/governance_main"
                           class="hover:underline"
                       >Back to Governance</a>
                   </div>
